@@ -1,0 +1,69 @@
+<!DOCTYPE html> 
+
+<html lang="en"> 
+
+    <head> 
+        <meta charset="UTF-8" /> 
+        <meta name="viewport"content="width=device-width, initial-scale=1.0" 
+        /> 
+        <title>Registration Form</title> 
+         <link rel="stylesheet" type="text/css" href="style.css"> 
+ 	     	
+    </head> 
+  
+    <body> 
+        <div class="main"> 
+            <h2>Registration Form</h2> 
+            <form name="frm" action=""> 
+                <label for="first">First Name:</label> 
+                <input                     type="text"            id="name"
+                    placeholder="First Name"
+                    name="name"
+                    required/>
+                
+                
+                <label for="Middle">Middle
+                Name:</label> 
+                <input                     type="text"            id="name"
+                    placeholder="Middle Name"
+                    name="name"
+                    required/> 
+                    
+                <label for="Last">Last Name:</label> 
+                <input                     type="text"            id="name"
+                    placeholder="Last Name"
+                    name="name"
+                    required/> 
+                    
+                <label for="Date">Date Of Birth:</label> 
+                <input                     type="date"            id="birthday"
+                    name="birthday"
+                    required/>     
+                <label for="email">Email Id:</label> 
+                <input                     type="email"           id="email" 
+                    placeholder="Email Id"
+                    name="email"
+                    required/> 
+ 	 	 	 	 
+ 	 	 	 	<label for="mobile">Mobile No:</label> 
+                <input                     type="text"            id="mobile"    
+                    placeholder="Mobile No"
+                    name="mobile" 
+                    maxlength="10"
+                    required/> 
+  
+               
+ 	 	 	 	<label for="gender">Gender:</label> 
+                <input                     type="radio"           id="rdgen"             name="rdgen"  
+                    required/>Male 
+ 	 	 	         	<input 
+                    type="radio"         id="rdgen"           name="rdgen" 
+                    required/>Female
+                
+                <button type="submit"
+                onClick="return chec()">Submit 
+                </button> 
+            </form> 
+        </div> 
+    </body> 
+</html>
